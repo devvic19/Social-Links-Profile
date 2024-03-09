@@ -1,0 +1,57 @@
+
+*{
+    background-color: hsl(0, 0%, 8%)
+    ;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+button{
+    margin-top: 10px;
+    width: 200px;
+    height: 30px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-style: none;
+}
+img{
+    border-radius: 50%;
+    
+}
+.Jess{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: hsl(0, 0%, 12%);
+
+}
+p1 {
+    color: hsl(75, 94%, 57%);
+    background-color: hsl(0, 0%, 12%);
+    margin-bottom: 10px;
+
+}
+h2,p2 {
+    background-color: hsl(0, 0%, 12%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    padding: 15px;
+}
+.attribution{
+    color: white;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: rgb(121, 142, 90);
+    color: black;
+}
